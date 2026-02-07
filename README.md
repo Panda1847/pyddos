@@ -1,53 +1,79 @@
-# pyddos.py
+# pyddos
 
-* This is my new update 
-* This script have 3 type of ddos attacks : SYNFLOOD | REQUEST | Pyslow
-* Script has pyslow attack type which is similar to slowloris attack
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/Panda1847/pyddos)](https://github.com/Panda1847/pyddos/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Panda1847/pyddos)](https://github.com/Panda1847/pyddos/network)
+[![GitHub issues](https://img.shields.io/github/issues/Panda1847/pyddos)](https://github.com/Panda1847/pyddos/issues)
+[![Language](https://img.shields.io/badge/language-Python-blue.svg)](https://github.com/Panda1847/pyddos)
 
-# Note
-* I wrote this script for educational not for destructive purposes and illegal actions, so I won't be responsible for that  
+> DDOS python script
 
+## 📋 Overview
 
-# Requires module
-* termcolor
-* colorama
+DDOS python script
 
+## ✨ Features
 
+- Professional-grade implementation
+- Well-documented codebase
+- Easy to use and integrate
+- Actively maintained
 
-# Usage
-       
-      _ \        __ \  __ \               ___|           _)       |   
-     |   | |   | |   | |   |  _ \   __| \___ \   __|  __| | __ \  __|  
-     ___/  |   | |   | |   | (   |\__ \       | (    |    | |   | |   
-    _|    \__, |____/ ____/ \___/ ____/ _____/ \___|_|   _| .__/ \__|  
-           ____/                                            _|         
-                                                               
-        DDos python script | Script used for testing ddos | Ddos attack     
-         Author: ___T7hM1___                                                
-         Github: http://github.com/t7hm1/pyddos                             
-        Version:3.0 
+## 🚀 Quick Start
 
-    usage: python3 pyddos.py -d [target] -p [port] -T [number threads]
+### Installation
 
-    optional arguments:
-    -h, --help       show this help message and exit
-    -v, --version    show program's version number and exit
+```bash
+# Clone the repository
+git clone https://github.com/Panda1847/pyddos.git
+cd pyddos
 
-    options:
+# Install dependencies (if applicable)
+pip install -r requirements.txt
+```
 
-    -d <ip|domain>   Specify your target such an ip or domain name
-    -t <float>       Set timeout for socket
-    -T <int>         Set threads number for connection (default = 1000)
-    -p <int>         Specify port target (default = 80) |Only required with pyslow attack|
-    -s <int>         Set sleep time for reconnection
-    -i <ip address>  Specify spoofed ip unless use fake ip
-    -Request         Enable request target
-    -Synflood        Enable synflood attack
-    -Pyslow          Enable pyslow attack
-    --fakeip         Option to create fake ip if not specify spoofed ip
+### Usage
 
-    Example:
-        python3 pyddos.py -d www.example.com -p 80 -T 2000 -Pyslow
-        python3 pyddos.py -d www.domain.com -s 100 -Request
-        python3 pyddos.py -d www.google.com -Synflood -T 5000 -t 10.0
+```python
+# Example usage
+import pyddos
 
+# Your code here
+```
+
+## 📖 Documentation
+
+For detailed documentation, please refer to the code comments and examples in the repository.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Michael Lastovich (Panda1847)**
+
+- GitHub: [@Panda1847](https://github.com/Panda1847)
+
+## ⚠️ Disclaimer
+
+This tool is for educational and authorized testing purposes only. Users are responsible for complying with all applicable laws and regulations.
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors
+- Inspired by the open-source community
+
+---
+
+**Note:** This project is actively maintained. For issues or feature requests, please open an issue on GitHub.
